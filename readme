@@ -1,0 +1,20 @@
+This is my simple experiment of ODE (Open Dynamics Engine), OpenGL, SDL, and the wavefront OBJ format.
+
+Do whatever you like with it.
+
+It's a hack of various different things that I've written so don't
+expect it to be neat or for the commented out lines to mean anything.
+Also, I am writing this readme at least 5 months after writing the code,
+so I don't remember exactly what is in the code.
+
+I take no responsibility for anything bad this code might do (i.e. Read
+it before you run it), but I'll gladly take full responsibility for anything awesome that this code does. ;)
+
+Controls:
+    w, a, s, d, shift, space    = move
+    mouse                       = look around
+    e                           = move faster
+    c                           = switch camera between being free and being fixed to the car
+    g                           = run simulation, while pressed
+    scroll up, scroll down      = speed up and slow down simulation
+    esc                         = close

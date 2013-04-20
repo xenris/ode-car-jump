@@ -1,0 +1,2 @@
+#!/bin/sh
+clang++ main.cpp drawable.cpp -o prog -lode -lSDL -lGL -lGLU -DdDOUBLE
