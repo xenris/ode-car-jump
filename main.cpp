@@ -263,8 +263,6 @@ bool processInput(State* state) {
     while(SDL_PollEvent(&event)) {
         if(event.type == SDL_QUIT) {
             return false;
-        } else if((event.type == SDL_KEYUP) && (event.key.keysym.sym == SDLK_q)) {
-            return false;
         } else if((event.type == SDL_KEYUP) && (event.key.keysym.sym == SDLK_ESCAPE)) {
             return false;
         } else if(event.type == SDL_MOUSEMOTION) {
